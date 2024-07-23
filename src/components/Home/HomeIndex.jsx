@@ -1,7 +1,7 @@
 import "./HomeIndex.css";
 
 function HomeIndex() {
-  return <>Home</>;
+  return <>Home Page</>;
 }
 
 export default HomeIndex;
