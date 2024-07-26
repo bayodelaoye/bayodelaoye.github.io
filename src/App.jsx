@@ -2,6 +2,7 @@ import { Outlet, createBrowserRouter, RouterProvider } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import HomeIndex from "./components/Home";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 
 function Layout() {
   return (
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomeIndex />,
+      },
+      {
+        path: "/projects",
+        element: <Projects />,
       },
     ],
   },
