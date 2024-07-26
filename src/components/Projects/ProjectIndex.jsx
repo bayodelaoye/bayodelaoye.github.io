@@ -1,12 +1,16 @@
+import { Link } from "react-router-dom";
+
 function ProjectIndex({ project }) {
   return (
     <>
-      <div class="card-container">
-        <img src={project.image_url} alt="project image" />
-        <div>
-          <p>{project.name}</p>
+      <Link to={`/projects/${project.id}`}>
+        <div className="card-container">
+          <img src={project.image_url} alt="project image" />
+          <div>
+            <p>{project.name}</p>
+          </div>
         </div>
-      </div>
+      </Link>
     </>
   );
 }

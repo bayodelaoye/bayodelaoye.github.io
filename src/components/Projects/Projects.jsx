@@ -1,26 +1,7 @@
 import "./Projects.css";
 import ProjectIndex from "./ProjectIndex";
 
-function Projects() {
-  const projects = [
-    {
-      name: "Firebnb",
-      image_url: "https://bayodeolaoye.onrender.com/assets/firebnb-logo.png",
-    },
-    {
-      name: "Calculator",
-      image_url: "https://bayodeolaoye.onrender.com/assets/firebnb-logo.png",
-    },
-    {
-      name: "Calculatorr",
-      image_url: "https://bayodeolaoye.onrender.com/assets/firebnb-logo.png",
-    },
-    {
-      name: "Calculatort",
-      image_url: "https://bayodeolaoye.onrender.com/assets/firebnb-logo.png",
-    },
-  ];
-
+function Projects({ projects }) {
   return (
     <main id="main-project-container">
       <div id="project-container">
@@ -32,7 +13,7 @@ function Projects() {
 
         <div id="project-cards-container">
           {projects.map((project) => {
-            return <ProjectIndex project={project} key={project.name} />;
+            return <ProjectIndex project={project} key={project.id} />;
           })}
         </div>
       </div>
