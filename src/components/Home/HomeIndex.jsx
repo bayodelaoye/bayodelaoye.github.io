@@ -39,7 +39,11 @@ function HomeIndex() {
       </div>
 
       <div id="intro-img-container">
-        <img src="../../../public/assets/headshot.jpg" alt="headshot image" />
+        {/* <img src="../../../public/assets/headshot.jpg" alt="headshot image" /> */}
+        <img
+          src="https://bayodeolaoye.onrender.com/assets/headshot.jpg"
+          alt="headshot image"
+        />
       </div>
     </main>
   );
