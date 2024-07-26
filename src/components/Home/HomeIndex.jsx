@@ -23,7 +23,9 @@ function HomeIndex() {
             CSS, SQL, React, Flask and more.
           </p>
 
-          <p>Email me at laoye.bayode@gmail.com</p>
+          <p>
+            Email me at <span id="email-underline">laoye.bayode@gmail.com</span>
+          </p>
         </div>
 
         <div id="intro-icons-container">
