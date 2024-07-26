@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./HomeIndex.css";
 
 function HomeIndex() {
@@ -26,20 +27,30 @@ function HomeIndex() {
         </div>
 
         <div id="intro-icons-container">
-          <a href="#">
-            <img src="../../../public/assets/envelope.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="../../../public/assets/linkedin.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="../../../public/assets/github.png" alt="" />
-          </a>
+          <NavLink to="mailto:laoye.bayode@gmail.com">
+            <img
+              src="https://bayodeolaoye.onrender.com/assets/envelope.png"
+              alt="email"
+            />
+          </NavLink>
+
+          <NavLink to="https://www.linkedin.com/in/bayode-olaoye/">
+            <img
+              src="https://bayodeolaoye.onrender.com/assets/linkedin.png"
+              alt="linkedin"
+            />
+          </NavLink>
+
+          <NavLink to="https://github.com/bayodelaoye">
+            <img
+              src="https://bayodeolaoye.onrender.com/assets/github.png"
+              alt="github"
+            />
+          </NavLink>
         </div>
       </div>
 
       <div id="intro-img-container">
-        {/* <img src="../../../public/assets/headshot.jpg" alt="headshot image" /> */}
         <img
           src="https://bayodeolaoye.onrender.com/assets/headshot.jpg"
           alt="headshot image"

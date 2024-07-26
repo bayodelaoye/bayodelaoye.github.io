@@ -3,12 +3,12 @@ import "./Navigation.css";
 
 function Navigation() {
   return (
-    <header className="header-container">
-      <div className="logo-container">
-        <div className="logo">
+    <header id="header-container">
+      <div id="logo-container">
+        <div id="logo">
           <span>BO</span>
         </div>
-        <div className="logo-text-container">
+        <div id="logo-text-container">
           <h3 className="logo-text" id="name">
             Bayode Olaoye
           </h3>
@@ -16,7 +16,7 @@ function Navigation() {
         </div>
       </div>
 
-      <nav className="nav-container">
+      <nav id="nav-container">
         <NavLink to="/" className="nav-link">
           Home
         </NavLink>

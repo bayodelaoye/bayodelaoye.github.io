@@ -1,4 +1,4 @@
-.header-container {
+#header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,30 +6,31 @@
   background-color: var(--off-white);
 }
 
-.logo-container {
+#logo-container {
   display: flex;
   gap: 15px;
   align-items: center;
   cursor: pointer;
 }
 
-.logo {
+#logo {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: red;
   width: 52px;
   height: 52px;
   border-radius: 50%;
   background-color: var(--main-blue);
 }
 
-.logo span {
+#logo span {
   font-size: 24px;
   font-weight: 600;
   color: var(--off-white);
 }
 
-.logo-text-container {
+#logo-text-container {
   display: flex;
   flex-direction: column;
 }
@@ -46,7 +47,7 @@
   font-size: 24px;
 }
 
-.nav-container {
+#nav-container {
   display: flex;
   gap: 55px;
   align-items: center;
