@@ -1,30 +1,31 @@
+import { NavLink } from "react-router-dom";
 import "./Navigation.css";
 
 function Navigation() {
   return (
-    <header id="header-container">
-      <div id="logo-container">
-        <div id="logo">
+    <header className="header-container">
+      <div className="logo-container">
+        <div className="logo">
           <span>BO</span>
         </div>
-        <div id="logo-text-container">
-          <h3 class="logo-text" id="name">
+        <div className="logo-text-container">
+          <h3 className="logo-text" id="name">
             Bayode Olaoye
           </h3>
-          <h3 class="logo-text">Software Engineer</h3>
+          <h3 className="logo-text">Software Engineer</h3>
         </div>
       </div>
 
-      <nav id="nav-container">
-        <a href="./index.html" class="nav-link">
+      <nav className="nav-container">
+        <NavLink to="/" className="nav-link">
           Home
-        </a>
-        <a href="./projects.html" class="nav-link">
+        </NavLink>
+        <NavLink to="/projects" className="nav-link">
           Projects
-        </a>
-        <a href="#" class="nav-link nav-btn">
+        </NavLink>
+        <NavLink to="/" className="nav-link nav-btn">
           Resume
-        </a>
+        </NavLink>
       </nav>
     </header>
   );
