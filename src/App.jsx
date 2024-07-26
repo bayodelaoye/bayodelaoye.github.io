@@ -1,6 +1,7 @@
 import { Outlet, createBrowserRouter, RouterProvider } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import HomeIndex from "./components/Home";
+import Footer from "./components/Footer";
 
 function Layout() {
   return (
@@ -27,6 +28,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
+      <Footer />
     </>
   );
 }
