@@ -27,6 +27,5 @@
 #project-404-btn:hover {
   border: 1px solid var(--main-blue);
   background-color: var(--off-white);
-  border-radius: 50px;
   color: var(--main-blue);
 }
