@@ -21,6 +21,15 @@
   font-weight: 500;
 }
 
+#project-details-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+#project-details-container img {
+  width: 500px;
+}
+
 .project-details-text {
   display: flex;
   flex-direction: column;

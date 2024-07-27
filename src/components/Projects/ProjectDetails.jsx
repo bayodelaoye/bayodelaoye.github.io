@@ -24,7 +24,9 @@ function ProjectDetails({ projects }) {
         <main id="main-project-details-container">
           <div id="project-details-container">
             <h2>{project.name}</h2>
-            <img src={project.image_url} alt="project image" />
+            <div id="project-details-img-container">
+              <img src={project.image_url} alt="project image" />
+            </div>
 
             <div className="project-details-text">
               <p className="project-details-heading">Project Description</p>
