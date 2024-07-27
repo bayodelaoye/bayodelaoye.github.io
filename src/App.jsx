@@ -10,21 +10,53 @@ const projects = [
     id: 1,
     name: "Firebnb",
     image_url: "https://bayodeolaoye.onrender.com/assets/firebnb-logo.png",
+    description:
+      "An application that is made with JavaScript, React and Express. It shows a list of spots and allows users to perform CRUD operations on said spots.",
+    role: "I used JavaScript, Express, React and Redux to create an application that allows users to perform CRUD operations on spots and reviews. Through this project, I gained experience with working with databases in the backend and stores (i.e. Redux) in the front end. I also deepened my understanding of React and CSS as I had to create a visually appealing application.",
+    technologies: ["JavaScript", "React", "Redux", "Express"],
+    links: [
+      { "Github repo": "https://github.com/bayodelaoye/firebnb-project" },
+      { "Live site": "https://firebnb-project.onrender.com/" },
+    ],
   },
   {
     id: 2,
     name: "Calculator",
     image_url: "https://bayodeolaoye.onrender.com/assets/firebnb-logo.png",
+    description:
+      "An application that is made with JavaScript, React and Express. It shows a list of spots and allows users to perform CRUD operations on said spots.",
+    role: "I used JavaScript, Express, React and Redux to create an application that allows users to perform CRUD operations on spots and reviews. Through this project, I gained experience with working with databases in the backend and stores (i.e. Redux) in the front end. I also deepened my understanding of React and CSS as I had to create a visually appealing application.",
+    technologies: ["JavaScript", "React", "Redux", "Express"],
+    links: [
+      { "Github repo": "https://github.com/bayodelaoye/firebnb-project" },
+      { "Live site": "https://firebnb-project.onrender.com/" },
+    ],
   },
   {
     id: 3,
     name: "Calculatorr",
     image_url: "https://bayodeolaoye.onrender.com/assets/firebnb-logo.png",
+    description:
+      "An application that is made with JavaScript, React and Express. It shows a list of spots and allows users to perform CRUD operations on said spots.",
+    role: "I used JavaScript, Express, React and Redux to create an application that allows users to perform CRUD operations on spots and reviews. Through this project, I gained experience with working with databases in the backend and stores (i.e. Redux) in the front end. I also deepened my understanding of React and CSS as I had to create a visually appealing application.",
+    technologies: ["JavaScript", "React", "Redux", "Express"],
+    links: [
+      { "Github repo": "https://github.com/bayodelaoye/firebnb-project" },
+      { "Live site": "https://firebnb-project.onrender.com/" },
+    ],
   },
   {
     id: 4,
     name: "Calculatort",
     image_url: "https://bayodeolaoye.onrender.com/assets/firebnb-logo.png",
+    description:
+      "An application that is made with JavaScript, React and Express. It shows a list of spots and allows users to perform CRUD operations on said spots.",
+    role: "I used JavaScript, Express, React and Redux to create an application that allows users to perform CRUD operations on spots and reviews. Through this project, I gained experience with working with databases in the backend and stores (i.e. Redux) in the front end. I also deepened my understanding of React and CSS as I had to create a visually appealing application.",
+    technologies: ["JavaScript", "React", "Redux", "Express"],
+    links: [
+      { "Github repo": "https://github.com/bayodelaoye/firebnb-project" },
+      { "Live site": "https://firebnb-project.onrender.com/" },
+    ],
   },
 ];
 
