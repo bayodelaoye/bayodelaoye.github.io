@@ -3,7 +3,8 @@
   justify-content: center;
   gap: 55px;
   align-items: center;
-  margin-top: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 #intro-container {

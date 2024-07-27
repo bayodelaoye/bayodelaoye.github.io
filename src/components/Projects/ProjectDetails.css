@@ -1,7 +1,8 @@
 #main-project-details-container {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 #project-details-container {
@@ -11,7 +12,6 @@
   gap: 25px;
   width: 65%;
   padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 #project-details-container h2 {
