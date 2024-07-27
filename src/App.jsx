@@ -4,6 +4,7 @@ import HomeIndex from "./components/Home";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import ProjectDetails from "./components/Projects/ProjectDetails";
+import Page404 from "./components/Errors";
 
 const projects = [
   {
@@ -87,7 +88,7 @@ const router = createBrowserRouter([
       },
       {
         path: "*",
-        element: <p>Invalid address</p>,
+        element: <Page404 />,
       },
     ],
   },

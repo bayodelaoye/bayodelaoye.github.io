@@ -3,11 +3,9 @@ function ProjectDetailsLinks({ link }) {
   const urlLink = Object.values(link)[0];
 
   return (
-    <>
-      <p>
-        {linkText}: {urlLink}
-      </p>
-    </>
+    <p>
+      {linkText}: {urlLink}
+    </p>
   );
 }
 

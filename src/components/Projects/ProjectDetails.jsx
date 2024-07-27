@@ -1,7 +1,8 @@
 import "./ProjectDetails.css";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import ProjectDetailsTechnologies from "./ProjectDetailsTechnologies";
 import ProjectDetailsLinks from "./ProjectDetailsLinks";
+import Page404 from "../Errors";
 
 function ProjectDetails({ projects }) {
   const { projectId } = useParams();
@@ -11,25 +12,14 @@ function ProjectDetails({ projects }) {
     return project.id === +projectId;
   });
 
-  if (
-    projectId < projects[0].id ||
-    projectId > projects[projects.length - 1].id
-  ) {
+  if (project === undefined) {
     invalidProject = true;
   }
 
   return (
-    <div>
+    <>
       {invalidProject ? (
-        <main id="main-project-404-container">
-          <div id="project-404-container">
-            <h1>404 Page Not Found</h1>
-            <p>The page you requested does not exist.</p>
-            <Link to="/projects">
-              <button id="project-404-btn">Continue to projects</button>
-            </Link>
-          </div>
-        </main>
+        <Page404 />
       ) : (
         <main id="main-project-details-container">
           <div id="project-details-container">
@@ -71,7 +61,7 @@ function ProjectDetails({ projects }) {
           </div>
         </main>
       )}
-    </div>
+    </>
   );
 }
 
