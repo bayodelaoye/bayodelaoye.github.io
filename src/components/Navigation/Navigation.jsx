@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navigation.css";
 
 function Navigation() {
@@ -25,9 +25,13 @@ function Navigation() {
         <NavLink to="/projects" className="nav-link">
           Projects
         </NavLink>
-        <NavLink to="/" className="nav-link nav-btn">
+        <Link
+          to="https://docs.google.com/document/d/1qliyuUAIxNwvvO5-38uxQGTJCwKmX_xCgPcTZIrJeCU/edit?usp=sharing"
+          target="_blank"
+          className="nav-link nav-btn"
+        >
           Resume
-        </NavLink>
+        </Link>
       </nav>
     </header>
   );

@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./HomeIndex.css";
 
 function HomeIndex() {
@@ -29,26 +29,26 @@ function HomeIndex() {
         </div>
 
         <div id="intro-icons-container">
-          <NavLink to="mailto:laoye.bayode@gmail.com">
+          <Link to="mailto:laoye.bayode@gmail.com">
             <img
               src="https://bayodeolaoye.onrender.com/assets/envelope.png"
               alt="email"
             />
-          </NavLink>
+          </Link>
 
-          <NavLink to="https://www.linkedin.com/in/bayode-olaoye/">
+          <Link to="https://www.linkedin.com/in/bayode-olaoye/" target="_blank">
             <img
               src="https://bayodeolaoye.onrender.com/assets/linkedin.png"
               alt="linkedin"
             />
-          </NavLink>
+          </Link>
 
-          <NavLink to="https://github.com/bayodelaoye">
+          <Link to="https://github.com/bayodelaoye" target="_blank">
             <img
               src="https://bayodeolaoye.onrender.com/assets/github.png"
               alt="github"
             />
-          </NavLink>
+          </Link>
         </div>
       </div>
 
