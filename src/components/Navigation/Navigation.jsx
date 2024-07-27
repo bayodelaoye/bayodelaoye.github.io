@@ -4,17 +4,19 @@ import "./Navigation.css";
 function Navigation() {
   return (
     <header id="header-container">
-      <div id="logo-container">
-        <div id="logo">
-          <span>BO</span>
+      <NavLink to="/">
+        <div id="logo-container">
+          <div id="logo">
+            <span>BO</span>
+          </div>
+          <div id="logo-text-container">
+            <h3 className="logo-text" id="name">
+              Bayode Olaoye
+            </h3>
+            <h3 className="logo-text">Software Engineer</h3>
+          </div>
         </div>
-        <div id="logo-text-container">
-          <h3 className="logo-text" id="name">
-            Bayode Olaoye
-          </h3>
-          <h3 className="logo-text">Software Engineer</h3>
-        </div>
-      </div>
+      </NavLink>
 
       <nav id="nav-container">
         <NavLink to="/" className="nav-link">

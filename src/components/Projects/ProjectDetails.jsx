@@ -1,5 +1,5 @@
 import "./ProjectDetails.css";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import ProjectDetailsTechnologies from "./ProjectDetailsTechnologies";
 import ProjectDetailsLinks from "./ProjectDetailsLinks";
 
@@ -21,7 +21,15 @@ function ProjectDetails({ projects }) {
   return (
     <div>
       {invalidProject ? (
-        <p>Invalid Project: 404</p>
+        <main id="main-project-404-container">
+          <div id="project-404-container">
+            <h1>404 Page Not Found</h1>
+            <p>The page you requested does not exist.</p>
+            <Link to="/projects">
+              <button id="project-404-btn">Continue to projects</button>
+            </Link>
+          </div>
+        </main>
       ) : (
         <main id="main-project-details-container">
           <div id="project-details-container">
