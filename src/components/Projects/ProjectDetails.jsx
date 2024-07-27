@@ -1,3 +1,4 @@
+import "./ProjectDetails.css";
 import { useParams } from "react-router-dom";
 import ProjectDetailsTechnologies from "./ProjectDetailsTechnologies";
 import ProjectDetailsLinks from "./ProjectDetailsLinks";
@@ -20,25 +21,27 @@ function ProjectDetails({ projects }) {
   return (
     <div>
       {invalidProject ? (
-        <p>Invalid Project</p>
+        <p>Invalid Project: 404</p>
       ) : (
         <main id="main-project-details-container">
           <div id="project-details-container">
             <h2>{project.name}</h2>
-            <img src={project.image_url} alt="" />
+            <img src={project.image_url} alt="project image" />
 
-            <div id="project-description-container">
+            <div className="project-details-text">
               <p className="project-details-heading">Project Description</p>
               <p>{project.description}</p>
             </div>
 
-            <div id="project-role-container">
+            <div className="project-details-text">
               <p className="project-details-heading">My Role</p>
               <p>{project.role}</p>
             </div>
 
-            <div id="project-technologies-container">
-              <p className="project-details-heading">Technologies</p>
+            <div>
+              <p className="project-details-heading technologies-links-text">
+                Technologies
+              </p>
               {project.technologies.map((technology) => {
                 return (
                   <ProjectDetailsTechnologies
@@ -49,8 +52,10 @@ function ProjectDetails({ projects }) {
               })}
             </div>
 
-            <div id="project-links-container">
-              <p className="project-details-heading">Links</p>
+            <div>
+              <p className="project-details-heading technologies-links-text">
+                Links
+              </p>
               {project.links.map((link, index) => {
                 return <ProjectDetailsLinks link={link} key={index} />;
               })}

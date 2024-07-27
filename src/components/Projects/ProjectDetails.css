@@ -1,0 +1,36 @@
+#main-project-details-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+#project-details-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  width: 65%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#project-details-container h2 {
+  display: flex;
+  justify-content: center;
+  color: var(--main-blue);
+  font-weight: 500;
+}
+
+.project-details-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-details-heading {
+  font-weight: 600;
+}
+
+.technologies-links-text {
+  margin-bottom: 8px;
+}
