@@ -45,6 +45,8 @@
   width: 40px;
 }
 
+/********** Media queries **********/
+
 @media screen and (min-width: 360px) {
   #main-container {
     display: flex;

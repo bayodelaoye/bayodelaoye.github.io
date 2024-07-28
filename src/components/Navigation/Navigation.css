@@ -65,6 +65,8 @@
   transition: background-color 0.15s ease, color 0.15s ease;
 }
 
+/********** Media queries **********/
+
 @media screen and (min-width: 360px) {
   #header-container {
     display: flex;
