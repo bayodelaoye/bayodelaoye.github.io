@@ -45,12 +45,12 @@
   width: 40px;
 }
 
-@media screen and (min-width: 457px) {
+@media screen and (min-width: 360px) {
   #main-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 611px;
+    text-align: center;
   }
 
   #intro-icons-container {
@@ -72,6 +72,7 @@
   #main-container {
     display: flex;
     flex-direction: row;
+    text-align: left;
   }
 
   #intro-container h2 {
