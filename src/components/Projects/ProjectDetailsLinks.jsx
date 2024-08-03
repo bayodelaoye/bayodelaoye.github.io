@@ -7,7 +7,7 @@ function ProjectDetailsLinks({ link }) {
   return (
     <p>
       {linkText}:{" "}
-      <Link to={urlLink} target="_blank">
+      <Link to={urlLink} target="_blank" id="links-details">
         {urlLink}
       </Link>
     </p>
