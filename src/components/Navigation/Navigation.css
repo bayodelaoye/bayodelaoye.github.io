@@ -65,6 +65,12 @@
   transition: background-color 0.15s ease, color 0.15s ease;
 }
 
+.nav-btn:hover {
+  border: 1px solid var(--main-blue);
+  background-color: var(--main-blue);
+  color: var(--off-white);
+}
+
 /********** Media queries **********/
 
 @media screen and (min-width: 360px) {
@@ -192,5 +198,11 @@
     padding: 7px 35px 7px 35px;
     border-radius: 50px;
     transition: background-color 0.15s ease, color 0.15s ease;
+  }
+
+  .nav-btn:hover {
+    border: 1px solid var(--main-blue);
+    background-color: var(--main-blue);
+    color: var(--off-white);
   }
 }
