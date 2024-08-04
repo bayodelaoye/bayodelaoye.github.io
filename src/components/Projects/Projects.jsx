@@ -8,7 +8,7 @@ function Projects({ projects }) {
         <h2>Student Projects</h2>
         <p>
           These are the projects I worked on during my time at App Academy from
-          04/2024 to 10/2024.
+          02/2024 to 09/2024.
         </p>
 
         <div id="project-cards-container">
