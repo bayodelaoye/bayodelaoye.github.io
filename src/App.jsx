@@ -9,8 +9,8 @@ import Page404 from "./components/Errors";
 const projects = [
   {
     id: 1,
-    name: "Firebnb",
-    image_url: "https://bayodeolaoye.onrender.com/assets/firebnb-logo.png",
+    name: "Garment",
+    image_url: "https://bayodeolaoye.onrender.com/assets/garment-logo.jpg",
     description:
       "An application that is made with JavaScript, React and Express. It shows a list of spots and allows users to perform CRUD operations on said spots.",
     role: "I used JavaScript, Express, React and Redux to create an application that allows users to perform CRUD operations on spots and reviews. Through this project, I gained experience with working with databases in the backend and stores (i.e. Redux) in the front end. I also deepened my understanding of React and CSS as I had to create a visually appealing application.",
@@ -22,8 +22,8 @@ const projects = [
   },
   {
     id: 2,
-    name: "Calculator",
-    image_url: "https://bayodeolaoye.onrender.com/assets/firebnb-logo.png",
+    name: "Ravenhood",
+    image_url: "https://bayodeolaoye.onrender.com/assets/ravenhood-logo.jpg",
     description:
       "An application that is made with JavaScript, React and Express. It shows a list of spots and allows users to perform CRUD operations on said spots.",
     role: "I used JavaScript, Express, React and Redux to create an application that allows users to perform CRUD operations on spots and reviews. Through this project, I gained experience with working with databases in the backend and stores (i.e. Redux) in the front end. I also deepened my understanding of React and CSS as I had to create a visually appealing application.",
@@ -35,7 +35,7 @@ const projects = [
   },
   {
     id: 3,
-    name: "Calculatorr",
+    name: "Firebnb",
     image_url: "https://bayodeolaoye.onrender.com/assets/firebnb-logo.png",
     description:
       "An application that is made with JavaScript, React and Express. It shows a list of spots and allows users to perform CRUD operations on said spots.",
