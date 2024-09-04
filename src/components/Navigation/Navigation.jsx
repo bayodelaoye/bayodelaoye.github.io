@@ -19,8 +19,8 @@ function Navigation() {
       </NavLink>
 
       <nav id="nav-container">
-        <NavLink to="/" className="nav-link">
-          Home
+        <NavLink to="/skills" className="nav-link">
+          Skills
         </NavLink>
         <NavLink to="/projects" className="nav-link">
           Projects

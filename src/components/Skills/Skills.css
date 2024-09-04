@@ -1,0 +1,44 @@
+.main-skills-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.all-skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.skills-container-row {
+  display: flex;
+  gap: 90px;
+}
+
+.skill-name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.skill-name-container:hover {
+  color: var(--main-blue);
+}
+
+.skill-icon {
+  width: 150px;
+  height: 150px;
+  color: var(--gray);
+}
+
+.skill-icon:hover {
+  color: var(--main-blue);
+}

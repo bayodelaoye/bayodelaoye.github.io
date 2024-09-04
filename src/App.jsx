@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import ProjectDetails from "./components/Projects/ProjectDetails";
 import Page404 from "./components/Errors";
+import Skills from "./components/Skills";
 
 const projects = [
   {
@@ -90,6 +91,10 @@ const router = createBrowserRouter([
       {
         path: "/projects/:projectId",
         element: <ProjectDetails projects={projects} />,
+      },
+      {
+        path: "/skills",
+        element: <Skills />,
       },
       {
         path: "*",
