@@ -26,7 +26,7 @@ function Navigation() {
           Projects
         </NavLink>
         <Link
-          to="https://drive.google.com/file/d/1wJPIH1L2grdYn37rlAokwF3iu61_FqvE/view?usp=sharing"
+          to="https://drive.google.com/file/d/1Q5hq61yBd0HB_1HNdD2cTldBu62mqFRa/view?usp=sharing"
           target="_blank"
           className="nav-link nav-btn"
         >
