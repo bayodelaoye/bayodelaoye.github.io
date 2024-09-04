@@ -26,7 +26,7 @@ const projects = [
     ],
     links: [
       { "Github repo": "https://github.com/bayodelaoye/garment" },
-      { "Live site": "https://firebnb-project.onrender.com/" },
+      { "Live site": "https://garment-project.onrender.com" },
     ],
   },
   {
@@ -48,7 +48,7 @@ const projects = [
     ],
     links: [
       { "Github repo": "https://github.com/bayodelaoye/ravenhood" },
-      { "Live site": "https://firebnb-project.onrender.com/" },
+      { "Live site": "https://ravenhood-project.onrender.com" },
     ],
   },
   {
