@@ -36,17 +36,17 @@ function HomeIndex() {
             />
           </Link>
 
-          <Link to="https://www.linkedin.com/in/bayode-olaoye/" target="_blank">
-            <img
-              src="https://bayodeolaoye.onrender.com/assets/linkedin.png"
-              alt="linkedin"
-            />
-          </Link>
-
           <Link to="https://github.com/bayodelaoye" target="_blank">
             <img
               src="https://bayodeolaoye.onrender.com/assets/github.png"
               alt="github"
+            />
+          </Link>
+
+          <Link to="https://www.linkedin.com/in/bayode-olaoye/" target="_blank">
+            <img
+              src="https://bayodeolaoye.onrender.com/assets/linkedin.png"
+              alt="linkedin"
             />
           </Link>
         </div>
