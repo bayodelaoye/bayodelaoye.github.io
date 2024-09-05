@@ -44,6 +44,10 @@
   margin-bottom: 8px;
 }
 
+#links-details {
+  color: var(--main-blue);
+}
+
 /********** Media queries **********/
 
 @media screen and (max-width: 639px) {

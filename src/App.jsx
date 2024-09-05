@@ -36,7 +36,7 @@ const projects = [
     image_url: "https://bayodeolaoye.onrender.com/assets/ravenhood-logo.jpg",
     description:
       "A financial application that displays over 500 stocks and provides information about a company. This application is made with Python, Flask, JavaScript, React and Redux. The site allows users to create, read, update and delete portfolios.",
-    role: "I used Flask, SQLAlchemy, React and Redux, to create the stock's details page i.e. the page contains information such as the ticker symbol, the current price and the dividend yield for a particular company. Through this project, I gained experience with loaders for making fetch requests as well as using a global state to store information such as a user's list of transactions.",
+    role: "I used Flask, SQLAlchemy, React and Redux, to create the stock's details page i.e. the page contains information such as the ticker symbol, the current price and the dividend yield for a particular company. Through this project, I gained experience with loaders for making fetch requests, as well as using a global state management via Redux to store and obtain information such as a user's list of transactions.",
     technologies: [
       "Python",
       "SQLAlchemy",
@@ -58,7 +58,7 @@ const projects = [
     image_url: "https://bayodeolaoye.onrender.com/assets/firebnb-logo.png",
     description:
       "An application that is made with JavaScript, React and Express. It shows a list of spots and allows users to perform CRUD operations on said spots.",
-    role: "I used JavaScript, Express, React and Redux to create an application that allows users to perform CRUD operations on spots and reviews. Through this project, I gained experience with working with databases in the backend and stores (i.e. Redux) in the front end. I also deepened my understanding of React and CSS as I had to create a visually appealing application.",
+    role: "I used JavaScript, Express, React and Redux to create an application that allows users to perform CRUD operations on spots and reviews. Through this project, I gained experience with working with databases in the backend, and deepened my understanding of React and CSS as I had to create a visually appealing application.",
     technologies: ["JavaScript", "React", "Redux", "Express"],
     links: [
       { "Github repo": "https://github.com/bayodelaoye/firebnb" },
