@@ -54,7 +54,7 @@ function HomeIndex() {
 
       <div id="intro-img-container">
         <img
-          src="https://bayodeolaoye.onrender.com/assets/headshot.jpg"
+          src="https://res.cloudinary.com/dsb4nx6zn/image/upload/v1725549589/Headshot-1_hnolef.jpg"
           alt="headshot image"
         />
       </div>

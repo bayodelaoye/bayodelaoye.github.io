@@ -11,7 +11,8 @@ const projects = [
   {
     id: 1,
     name: "Garment",
-    image_url: "https://bayodeolaoye.onrender.com/assets/garment-logo.jpg",
+    image_url:
+      "https://res.cloudinary.com/dsb4nx6zn/image/upload/v1725549701/garment-logo_ymqhqq.jpg",
     description:
       "An eCommerce site made with Python, Flask, JavaScript, React and Redux. Users can add or remove items from their cart, leave reviews for different garments, as well as add or remove garments from their favorites list.",
     role: "I used Python, Flask, React and Redux to create an application that allows users to perform CRUD operations on garments, reviews, cart and favorites. Through this project, I gained experience with working with Flask in the backend and responsive web development via media queries in the front end. I also deepened my understanding of the React component lifecycle.",
@@ -33,7 +34,8 @@ const projects = [
   {
     id: 2,
     name: "Ravenhood",
-    image_url: "https://bayodeolaoye.onrender.com/assets/ravenhood-logo.jpg",
+    image_url:
+      "https://res.cloudinary.com/dsb4nx6zn/image/upload/v1725549701/ravenhood-logo_imycwf.jpg",
     description:
       "A financial application that displays over 500 stocks and provides information about a company. This application is made with Python, Flask, JavaScript, React and Redux. The site allows users to create, read, update and delete portfolios.",
     role: "I used Flask, SQLAlchemy, React and Redux, to create the stock's details page i.e. the page contains information such as the ticker symbol, the current price and the dividend yield for a particular company. Through this project, I gained experience with loaders for making fetch requests, as well as using a global state management via Redux to store and obtain information such as a user's list of transactions.",
@@ -55,7 +57,8 @@ const projects = [
   {
     id: 3,
     name: "Firebnb",
-    image_url: "https://bayodeolaoye.onrender.com/assets/firebnb-logo.png",
+    image_url:
+      "https://res.cloudinary.com/dsb4nx6zn/image/upload/v1725549700/firebnb-logo_qteuuf.png",
     description:
       "An application that is made with JavaScript, React and Express. It shows a list of spots and allows users to perform CRUD operations on said spots.",
     role: "I used JavaScript, Express, React and Redux to create an application that allows users to perform CRUD operations on spots and reviews. Through this project, I gained experience with working with databases in the backend, and deepened my understanding of React and CSS as I had to create a visually appealing application.",
