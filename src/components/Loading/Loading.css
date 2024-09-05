@@ -1,0 +1,33 @@
+.loading-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle-container {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+}
+
+.circle {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  border: 0.5rem solid var(--light-gray);
+  border-top: 0.5rem solid var(--main-blue);
+  border-radius: 50%;
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+}
