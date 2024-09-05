@@ -34,13 +34,23 @@ function Skills() {
   return (
     <div className="main-skills-container">
       <div className="skills-container">
-        <h2>Skills</h2>
+        <h2 className="skills-heading">Skills</h2>
 
         <div className="all-skills-container">
           <div className="skills-container-row">
             <div className="skill-name-container">
-              <SiAmazonwebservices className="skill-icon" />
-              <p>amazon web services</p>
+              <FaJava className="skill-icon" />
+              <p>java</p>
+            </div>
+
+            <div className="skill-name-container">
+              <IoLogoJavascript className="skill-icon" />
+              <p>javascript</p>
+            </div>
+
+            <div className="skill-name-container">
+              <FaPython className="skill-icon" />
+              <p>python</p>
             </div>
 
             <div className="skill-name-container">
@@ -52,62 +62,26 @@ function Skills() {
               <FaCss3Alt className="skill-icon" />
               <p>css3</p>
             </div>
-
-            <div className="skill-name-container">
-              <FaDocker className="skill-icon" />
-              <p>docker</p>
-            </div>
-
-            <div className="skill-name-container">
-              <SiExpress className="skill-icon" />
-              <p>express</p>
-            </div>
           </div>
           <div className="skills-container-row">
-            <div className="skill-name-container">
-              <IoLogoFigma className="skill-icon" />
-              <p>figma</p>
-            </div>
-
             <div className="skill-name-container">
               <SiFlask className="skill-icon" />
               <p>flask</p>
             </div>
 
             <div className="skill-name-container">
-              <FaGitAlt className="skill-icon" />
-              <p>git</p>
+              <SiExpress className="skill-icon" />
+              <p>express</p>
             </div>
 
             <div className="skill-name-container">
-              <FaGithub className="skill-icon" />
-              <p>github</p>
+              <SiSqlalchemy className="skill-icon" />
+              <p>sqlalchemy</p>
             </div>
 
             <div className="skill-name-container">
-              <IoLogoJavascript className="skill-icon" />
-              <p>javascript</p>
-            </div>
-          </div>
-          <div className="skills-container-row">
-            <div className="skill-name-container">
-              <FaNodeJs className="skill-icon" />
-              <p>node.js</p>
-            </div>
-
-            <div className="skill-name-container">
-              <FaNpm className="skill-icon" />
-              <p>npm</p>
-            </div>
-
-            <div className="skill-name-container">
-              <BiLogoPostgresql className="skill-icon" />
-              <p>postgresql</p>
-            </div>
-
-            <div className="skill-name-container">
-              <FaPython className="skill-icon" />
-              <p>python</p>
+              <SiSequelize className="skill-icon" />
+              <p>sequelize</p>
             </div>
 
             <div className="skill-name-container">
@@ -122,29 +96,55 @@ function Skills() {
             </div>
 
             <div className="skill-name-container">
-              <SiSequelize className="skill-icon" />
-              <p>sequelize</p>
+              <BiLogoPostgresql className="skill-icon" />
+              <p>postgresql</p>
             </div>
 
             <div className="skill-name-container">
-              <FaSlack className="skill-icon" />
-              <p>slack</p>
+              <SiSqlite className="skill-icon" />
+              <p>sqlite</p>
             </div>
 
             <div className="skill-name-container">
-              <SiSqlalchemy className="skill-icon" />
-              <p>sqlalchemy</p>
+              <SiAmazonwebservices className="skill-icon" />
+              <p>amazon web services</p>
             </div>
 
             <div className="skill-name-container">
-              <VscVscode className="skill-icon" />
-              <p>vscode</p>
+              <MdHttp className="skill-icon" />
+              <p>http</p>
             </div>
           </div>
           <div className="skills-container-row">
             <div className="skill-name-container">
-              <SiSqlite className="skill-icon" />
-              <p>sqlite</p>
+              <FaNodeJs className="skill-icon" />
+              <p>node.js</p>
+            </div>
+
+            <div className="skill-name-container">
+              <FaNpm className="skill-icon" />
+              <p>npm</p>
+            </div>
+
+            <div className="skill-name-container">
+              <FaDocker className="skill-icon" />
+              <p>docker</p>
+            </div>
+
+            <div className="skill-name-container">
+              <FaGitAlt className="skill-icon" />
+              <p>git</p>
+            </div>
+
+            <div className="skill-name-container">
+              <FaGithub className="skill-icon" />
+              <p>github</p>
+            </div>
+          </div>
+          <div className="skills-container-row">
+            <div className="skill-name-container">
+              <VscVscode className="skill-icon" />
+              <p>vscode</p>
             </div>
 
             <div className="skill-name-container">
@@ -153,13 +153,13 @@ function Skills() {
             </div>
 
             <div className="skill-name-container">
-              <FaJava className="skill-icon" />
-              <p>java</p>
+              <FaSlack className="skill-icon" />
+              <p>slack</p>
             </div>
 
             <div className="skill-name-container">
-              <MdHttp className="skill-icon" />
-              <p>http</p>
+              <IoLogoFigma className="skill-icon" />
+              <p>figma</p>
             </div>
 
             <div className="skill-name-container">

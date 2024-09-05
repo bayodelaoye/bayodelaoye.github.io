@@ -1,44 +1,101 @@
-.main-skills-container {
-  display: flex;
-  justify-content: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+@media screen and (min-width: 360px) {
+  .main-skills-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 30px;
+  }
+
+  .skills-container h2 {
+    margin: 0 auto;
+    color: var(--main-blue);
+    font-weight: 500;
+  }
+
+  .all-skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .skills-container-row {
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+  }
+
+  .skill-name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: var(--gray);
+    transition: color 0.15s ease;
+  }
+
+  .skill-name-container:hover {
+    color: var(--main-blue);
+  }
+
+  .skill-icon {
+    width: 150px;
+    height: 150px;
+  }
 }
 
-.skills-container {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
+@media screen and (min-width: 1024px) {
+  .main-skills-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 
-.all-skills-container {
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-}
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
 
-.skills-container-row {
-  display: flex;
-  gap: 90px;
-}
+  .skills-container h2 {
+    margin: 0 auto;
+    color: var(--main-blue);
+    font-weight: 500;
+  }
 
-.skill-name-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-}
+  .all-skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
 
-.skill-name-container:hover {
-  color: var(--main-blue);
-}
+  .skills-container-row {
+    display: flex;
+    flex-direction: row;
+  }
 
-.skill-icon {
-  width: 150px;
-  height: 150px;
-  color: var(--gray);
-}
+  .skill-name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: var(--gray);
+    transition: color 0.15s ease;
+  }
 
-.skill-icon:hover {
-  color: var(--main-blue);
+  .skill-name-container:hover {
+    color: var(--main-blue);
+  }
+
+  .skill-icon {
+    width: 150px;
+    height: 150px;
+  }
 }
