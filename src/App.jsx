@@ -62,7 +62,16 @@ const projects = [
     description:
       "An application that is made with JavaScript, React and Express. It shows a list of spots and allows users to perform CRUD operations on said spots.",
     role: "I used JavaScript, Express, React and Redux to create an application that allows users to perform CRUD operations on spots and reviews. Through this project, I gained experience with working with databases in the backend, and deepened my understanding of React and CSS as I had to create a visually appealing application.",
-    technologies: ["JavaScript", "React", "Redux", "Express"],
+    technologies: [
+      "JavaScript",
+      "Sequelize",
+      "Express.js",
+      "React",
+      "Redux",
+      "HTML",
+      "CSS",
+      "Figma",
+    ],
     links: [
       { "Github repo": "https://github.com/bayodelaoye/firebnb" },
       { "Live site": "https://firebnb-project.onrender.com/" },
