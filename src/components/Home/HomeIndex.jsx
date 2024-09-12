@@ -13,8 +13,8 @@ function HomeIndex() {
           </p>
 
           <p>
-            I'm based in Philadelphia, PA and have a rich background in both
-            front-end and back end development.
+            Also, I have a rich background in both front-end and back end
+            development.
           </p>
 
           <p>
