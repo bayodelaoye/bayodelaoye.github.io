@@ -28,6 +28,15 @@ function ProjectDetails({ projects }) {
               <img src={project.image_url} alt="project image" />
             </div>
 
+            <div>
+              <p className="project-details-heading technologies-links-text">
+                Links
+              </p>
+              {project.links.map((link, index) => {
+                return <ProjectDetailsLinks link={link} key={index} />;
+              })}
+            </div>
+
             <div className="project-details-text">
               <p className="project-details-heading">Project Description</p>
               <p>{project.description}</p>
@@ -52,14 +61,14 @@ function ProjectDetails({ projects }) {
               })}
             </div>
 
-            <div>
+            {/* <div>
               <p className="project-details-heading technologies-links-text">
                 Links
               </p>
               {project.links.map((link, index) => {
                 return <ProjectDetailsLinks link={link} key={index} />;
               })}
-            </div>
+            </div> */}
           </div>
         </main>
       )}
